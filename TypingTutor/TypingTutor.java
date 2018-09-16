@@ -72,9 +72,9 @@ public class TypingTutor extends JFrame implements ActionListener {
 	public void initgame(){
 		timer = new Timer(3000,this);
 		running = false;
-		timeleft = 50;
+		timeleft = 60;
 		score = 0;
-		timeleft =50;
+		timeleft =60;
 		lblStop.setEnabled(false);
 		lblscore.setText("Score- "+score);
 		lblWord.setText("");
